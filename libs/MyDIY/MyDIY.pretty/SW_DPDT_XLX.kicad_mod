@@ -1,0 +1,236 @@
+(footprint "SW_DPDT_XLX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DPDT Latching")
+	(tags "SW DPDT")
+	(property "Reference" "REF**"
+		(at 0.635 -9.525 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f47a82cd-4eb2-4cbf-be0c-9eb88210398f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_DPDT_XLX"
+		(at 0 -6.985 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "201b11ee-83fc-41ed-bbfd-4dc318441a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dff1ba0-4644-4418-ade1-8b40bf996c41")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c97e419d-294a-4aca-a004-f79bcb8feaec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.65 -3.65)
+		(end 3.65 3.65)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c507146c-aca7-482e-9b74-a5960c71afff")
+	)
+	(fp_rect
+		(start -1.45 -1.45)
+		(end 1.45 1.45)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a6d750c7-715f-4833-81b4-b94abc77571d")
+	)
+	(fp_rect
+		(start 2.5 -0.3)
+		(end 3.28 0.27)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9ab78f13-876d-4224-817e-a617128c4a54")
+	)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4049f0ca-1a3f-4e81-9716-dfedc0b6abbb")
+	)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5474d18e-9b89-4bcc-94ca-6b833f4b0a48")
+	)
+	(fp_rect
+		(start -3.6 -3.6)
+		(end 3.6 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f744303e-b893-46eb-be42-b2788feeb073")
+	)
+	(fp_rect
+		(start -1.45 -1.45)
+		(end 1.45 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b38afd0f-749c-4b99-8346-2742c63ebe8d")
+	)
+	(fp_rect
+		(start 2.5 -0.3)
+		(end 3.28 0.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9f792799-50c6-4630-a283-95c680d5c447")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.14 0.05 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "13ef26b1-27c8-440f-89d9-2c2f80966f08")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${Title}"
+		(at 2.54 -5.27 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a572bee7-aabc-477d-aca9-9d441d4faf55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e623bce3-8d15-40d6-b4e0-dc95b876a44a")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16f8b0fd-028e-4696-9eeb-f66fdcc465ae")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec6ec992-4246-4876-8d94-007eb20db11e")
+	)
+	(pad "4" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1fa4d978-6d54-4ee0-a446-99d9291d6fd7")
+	)
+	(pad "5" thru_hole circle
+		(at 0 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "069840c9-b69d-4403-94fb-fcb67435b052")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2 2)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "066cd891-e55a-4953-b4d0-9fe40ea99ef1")
+	)
+	(group ""
+		(uuid "cc636ac9-af0b-4acc-b8d5-ddf9b8db1640")
+		(members "5474d18e-9b89-4bcc-94ca-6b833f4b0a48" "9f792799-50c6-4630-a283-95c680d5c447"
+			"b38afd0f-749c-4b99-8346-2742c63ebe8d" "f744303e-b893-46eb-be42-b2788feeb073"
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/MyDIY/MyDIY.3dshapes/SW_Btn_XLX.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

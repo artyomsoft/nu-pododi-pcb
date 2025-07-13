@@ -1,0 +1,112 @@
+(footprint "Battery Li-Po 503450"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b143d6c-ce99-430e-97d1-6fa1d07293c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery Li-Po 503450"
+		(at 26 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "03bc9f2c-fa8b-4ae7-aa68-34dd32c5cac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44b2eba0-4422-4faa-923a-7b45c60b34d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f44cf6cd-49c8-408c-8de1-69a6ff072351")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 50 34)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b785da4e-edd1-4928-b6d9-eb1c71c50907")
+	)
+	(fp_rect
+		(start -1 -1)
+		(end 51 35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6a4ab90-8148-41a1-a9d6-d8db7445f6ed")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 26 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e943a7a-fb05-423c-9c14-4d94ceaff78d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 1 2)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5da0e878-9b6d-47a0-be83-8679073de76e")
+	)
+	(pad "2" thru_hole roundrect
+		(at 1 4)
+		(size 2.54 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "6f876e9c-71d0-4df1-8ba2-6a512f44bb73")
+	)
+	(embedded_fonts no)
+)

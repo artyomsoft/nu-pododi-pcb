@@ -1,0 +1,92 @@
+(footprint "LI-Po 503450"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -25 -17.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80257355-a03e-4360-9406-201857c4ccca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LI-Po 503450"
+		(at -25 -16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8b9910fd-0d7b-470e-96be-c5df0128f6b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -25 -17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3033aedb-b36a-46de-b6d2-3089a255e52b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -25 -17 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52716c2c-ea6e-41bf-942e-0513532ecef8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -25 -17)
+		(end 25 17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "690d2b51-2c3b-45bc-a0c9-ff26cc54576d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -25 -14.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "567b0b51-0962-4f37-9927-90d7992c194b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/MyDIY/MyDIY.3dshapes/Bateria LiPo 3.7V 1000mA 503450 v23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

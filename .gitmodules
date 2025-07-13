@@ -1,0 +1,3 @@
+[submodule "libs/ki-lime-pi-to-go"]
+	path = libs/ki-lime-pi-to-go
+	url = https://github.com/artyomsoft/ki-lime-pi-to-go.git

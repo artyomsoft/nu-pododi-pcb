@@ -1,0 +1,24 @@
+* text=auto
+*.step binary
+
+# KiCad project files
+*.kicad_sch text eol=lf
+*.kicad_pcb text eol=lf
+*.kicad_pro text eol=lf
+*.lib text eol=lf
+*.dcm text eol=lf
+*.kicad_mod text eol=lf
+*.kicad_dru text eol=lf
+*.kicad_wks text eol=lf
+*.txt text eol=lf
+
+# Other text files
+*.py text eol=lf
+*.md text eol=lf
+
+# Binary files (no line ending conversion)
+*.kicad_prl binary
+*.pretty binary
+*.zip binary
+*.gbr binary
+*.drl binary
