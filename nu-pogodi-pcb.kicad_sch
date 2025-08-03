@@ -5184,7 +5184,7 @@
 		)
 		(uuid "2a04f4af-6009-4d19-8bc7-fb7b45e5f9b8")
 	)
-	(label "ROW_1"
+	(label "ROW_2"
 		(at 111.76 59.69 0)
 		(effects
 			(font
@@ -5214,7 +5214,7 @@
 		)
 		(uuid "33e4913d-1924-4bf4-84fc-57cb3e3e3770")
 	)
-	(label "ROW_2"
+	(label "ROW_1"
 		(at 111.76 62.23 0)
 		(effects
 			(font
